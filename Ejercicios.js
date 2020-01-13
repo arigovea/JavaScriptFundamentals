@@ -38,7 +38,6 @@
   // pfn(i);
  //}
 //doHomeWork();
-
 var num = undefined;
 function dato (num){
     if(isNaN(num)){
@@ -59,6 +58,15 @@ function dato (num){
             }
         }
     }
-
 dato(20);
 
+let alerta = (i) => {
+    alert("The Homework has been done!");
+    };
+ function doHomeWork(fn){
+   for(i=1; i<=100; i++){
+    console.log("Numero: " + i);
+ }
+ fn();
+ }
+ doHomeWork(alerta);
